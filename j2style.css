@@ -1,0 +1,63 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-image: url("image\ project/fries.jpg");
+    background-size:cover;
+    backdrop-filter:blur(6px);
+    min-height: 6700px;
+    background-attachment: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',  'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+/* top bar start */
+.topbar{
+    display: grid;
+    grid-template-columns: 30% 20% 50%;
+    color: white;
+}
+.topbar .namebar , .phonenumber, .time{
+    text-align: center;
+    padding: 30px;
+
+}
+/* top bar end */
+/* nav bar start */
+.navbar{
+    display: grid;
+    grid-template-columns: 20% 10% 10% 10% 10% 10% 10% 10% 10%;
+    padding: 20px;
+    color: white;
+    background-color: rgba(225, 0, 0, 225);
+}
+.navbar .title{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.navbar .menu{
+             height: 8px;
+             padding-top: 5px;
+             color:blue;    
+
+}
+/* nav bar end */
+/* home content start */
+.home{
+    padding: 100px 300px;
+}
+.home .title{
+    font-size: 20px;
+    color:white;
+}
+.home .description{
+    font-size: 20px;
+    color:white;
+}
+.home .buttongroup .button{
+    padding: 10px;
+    background-color: rgba(225, 125, 25, 0);
+    color: white;
+    font-size: 40px;
+    border:1px solid red;
+    border-radius: 30px;
+}
